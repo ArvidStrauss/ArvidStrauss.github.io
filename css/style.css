@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+:root {
+  --primary-color: #2daf79;
+  --primary-hover-color: #6de695;
+  --bg-color: #333;
+  --box-shadow: 3px 4px 12 px rgba(0, 0, 0, 0.7);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  color: #333;
+  background: #f4f4f4;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+.container {
+  max-width: 960px;
+  padding: 1rem 4rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6rem;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav li {
+  margin: 0 1rem;
+}
+
+header.inner {
+  background: var(--bg-color);
+  border-bottom: 4px solid var(--primary-color);
+  position: relative;
+  box-shadow: var(--box-shadow);
+}
+
+.btn {
+  color: #fff;
+  padding: 0.6rem;
+  width: 10vh;
+  margin: 5px;
+  border: 1px solid #ccc;
+  transition: all 0.7s;
+}
+.btn:hover {
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: #fff;
+}
+
+.btn-reverse {
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn-reverse:hover {
+  background: var(--primary-hover-color);
+  border: 1px solid var(--primary-hover-color);
+}
+
+#play-again {
+  width: 20vh;
+}
+#change-key {
+  width: 20vh;
+}
+progress {
+  margin: 10px;
+}
+
+/* Tablets */
+@media (max-width: 800px) {
+  .container {
+    padding: 1rem 2rem;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 0.3rem !important;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+  .container {
+    padding: 1rem;
+  }
+
+  header nav li {
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Notenlernen",
+  "short_name": "Noten",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/icons/icon-256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ]
+}
