@@ -36,14 +36,8 @@ a:hover {
   color: var(--bg-color);
 }
 
-.smlinks {
-  margin-left: 10vh;
-}
-#contact p {
-  margin-left: 10vh;
-}
-img {
-  margin-left: 10vh;
+#arvid {
+  margin-right: 10vh;
 }
 
 .container {
