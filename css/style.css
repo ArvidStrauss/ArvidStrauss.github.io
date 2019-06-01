@@ -32,6 +32,20 @@ a:hover {
   color: var(--primary-color);
 }
 
+#contact a {
+  color: var(--bg-color);
+}
+
+.smlinks {
+  margin-left: 10vh;
+}
+#contact p {
+  margin-left: 10vh;
+}
+img {
+  margin-left: 10vh;
+}
+
 .container {
   max-width: 960px;
   padding: 1rem 4rem;
