@@ -82,21 +82,21 @@ header.inner {
   border: 1px solid #ccc;
   transition: all 0.7s;
 }
-.btn:hover {
+/* .btn:hover {
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
   color: #fff;
-}
+} */
 
 .btn-reverse {
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
 
-.btn-reverse:hover {
+/* .btn-reverse:hover {
   background: var(--primary-hover-color);
   border: 1px solid var(--primary-hover-color);
-}
+} */
 
 #play-again {
   width: 20vh;
