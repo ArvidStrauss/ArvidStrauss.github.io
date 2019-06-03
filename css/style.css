@@ -4,7 +4,7 @@
   --primary-color: #2daf79;
   --primary-hover-color: #6de695;
   --bg-color: #333;
-  --box-shadow: 3px 4px 12 px rgba(0, 0, 0, 0.7);
+  --box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.7);
 }
 
 * {
@@ -28,9 +28,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   color: var(--primary-color);
-}
+} */
 
 #contact a {
   color: var(--bg-color);
