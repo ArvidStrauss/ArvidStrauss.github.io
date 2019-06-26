@@ -18,5 +18,5 @@ Zum installieren und nutzen auf dem iPhone (getestet auf iPhone 7)
 Zum installieren und nutzen auf Android
 
 1. Öffnen sie arvidstrauss.github.io in Chrome
-2. Da unsere Mobile-App alle relevanten Kriterien einer PWA erfüllt, erscheint unten am Bildschirm eine Popup-Message "zu Homescreen hinzufuegen"
+2. Da die Mobile-App alle relevanten Kriterien einer PWA erfüllt, erscheint unten am Bildschirm eine Popup-Message "zu Homescreen hinzufuegen"
 3. Dadurch wird die mobile App als App auf dem Device installiert und man kann nun auch die PWA-Features nutzen (offline-Funktion, dynamic-Caching etc.)
