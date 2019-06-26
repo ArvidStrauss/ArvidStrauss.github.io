@@ -1,12 +1,10 @@
-# HTW-IT1-Beleg
-
-Notenlernen mit Vexflow
+# Notenlernen mit Vexflow
 
 Lauffähig unter folgenden Browsern: Chromium, Google Chrome, Firefox und Safari (jeweils die aktuellste Version)
 
 alle PWA-Features installiert (service-worker, offline funktion, dynamic caching etc.)
 
-Anleitung für die Installation auf mobilen Endgeräten
+# Anleitung für die Installation auf mobilen Endgeräten
 
 Zum installieren und nutzen auf dem iPhone (getestet auf iPhone 7)
 
