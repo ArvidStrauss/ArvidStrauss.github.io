@@ -1,4 +1,4 @@
-# Notenlernen mit Vexflow
+# Notenlernen mit Vexflow - Progressive Web App
 
 Lauffähig unter folgenden Browsern: Chromium, Google Chrome, Firefox und Safari (jeweils die aktuellste Version)
 
